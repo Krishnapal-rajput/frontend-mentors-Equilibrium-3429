@@ -1,0 +1,143 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  /* position: relative; */
+  margin: 0;
+  width: 100vw;
+  font-weight: 300;
+  min-width: 375px;
+  max-width: 1440px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.box-container {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1px transparent #14252d;
+  border-radius: 10px;
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  padding: 10px;
+}
+.elem {
+  height: 480px;
+  width: 280px;
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  /* border: 1px solid white; */
+}
+.img-container {
+  height: 280px;
+  width: auto;
+  /* border: 2px solid red; */
+  box-sizing: border-box;
+  /* background-color: aqua; */
+}
+.img-container img {
+  object-fit: cover;
+  height: 280px;
+  width: auto;
+  border-radius: 10px;
+}
+h3 {
+  font-weight: 700;
+  color: #fff;
+}
+main,
+footer {
+  font-weight: 300;
+  color: #fffa;
+}
+main {
+  border-bottom: 1px solid #fffa;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+.left,
+.right {
+  display: flex;
+  align-items: center;
+}
+.left svg,
+.right svg {
+  margin-right: 5px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; */
+  padding-top: 7.5px;
+}
+.img2 {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 32px;
+  margin-right: 15px;
+}
+.bold {
+  color: #fff;
+}
+
+/* .box {
+  width: 300px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  border: 1px transparent #14253d;
+  box-shadow: 1px 1px 2px #123c;
+  position: fixed;
+  margin: auto;
+  inset: 0;
+}
+
+section > img {
+  height: 300px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px transparent hsl(216, 50%, 16%);
+}
+.content {
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+h3 {
+  color: #fff;
+}
+.left {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+p {
+  color: #fffa;
+}
+.elem {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  border-bottom: 1px solid #fffa;
+  margin-bottom: 0;
+}
+#foo {
+  display: flex;
+  justify-content: left;
+  padding-top: 10px;
+}
+#im {
+  width: 50px;
+  /* height: auto; */
+/* border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+} */
